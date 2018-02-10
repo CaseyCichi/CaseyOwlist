@@ -8,8 +8,7 @@ const NavigationPanel = (props) => {
 		<div className='NavigationPanel'>
 			<MdArrowBack onClick={props.initialState} className='back'/>
 			<div className='dots'>
-				
-				
+					
 			</div>
 			<div style={{flex: 2}}></div>
 		</div>

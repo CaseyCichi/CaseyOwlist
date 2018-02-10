@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../App.css';
-import {MdVisibility} from 'react-icons/lib/md';
+// import {MdVisibility} from 'react-icons/lib/md';
 
 const Input = (props) => {
 
-	let iconVisibility = null;
+	// let iconVisibility = null;
 
 	if (props.type === 'password') {
-		iconVisibility = (
-			<MdVisibility className='iconVisibility'/>
-		);
+		// iconVisibility = (
+		// 	<MdVisibility className='iconVisibility'/>
+		// );
 	}
 
 	return (
@@ -22,7 +22,7 @@ const Input = (props) => {
 				type={props.type}
 				placeholder={props.placeholder}
 			/>
-			{iconVisibility}
+			
 		</div>
 	);
 }

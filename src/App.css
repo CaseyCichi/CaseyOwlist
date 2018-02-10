@@ -237,10 +237,7 @@ body {
 .iconVisibility {
   opacity: 0.7;
 }
-.iconVisibility:hover {
-  opacity: 1;
-  cursor:pointer;
-}
+
 .submitButton {
   display: flex;
   flex-direction: row;

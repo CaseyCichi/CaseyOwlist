@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../App.css';
-import {MdAccountCircle, MdAddCircle} from 'react-icons/lib/md';
+import {MdAccountCircle} from 'react-icons/lib/md';
 
 const SignCollapsed = (props) => {
 
@@ -10,7 +10,7 @@ const SignCollapsed = (props) => {
 	if (props.type === 'signIn') {
 		icon = <MdAccountCircle className='iconsCollapsed'/>
 	} else {
-		icon = <MdAddCircle className='iconsCollapsed'/>
+		icon = <MdAccountCircle className='iconsCollapsed'/>
 	}
 	
 	return (

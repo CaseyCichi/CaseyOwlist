@@ -34,8 +34,8 @@ class SignExpanded extends Component {
 				flexGrow: `${flexVal}`
 			}}>
 				<Motion style={{ 
-					opacity: spring(this.state.flexState ? 1 : 0,{stiffness: 300, damping: 17}),
-					y: spring(this.state.flexState ? 0 : 50, {stiffness: 100, damping: 17})
+					opacity: spring(this.state.flexState ? 1 : 0,{stiffness: 100, damping: 20}),
+					y: spring(this.state.flexState ? 0 : 20, {stiffness: 50, damping: 20})
 				 }} >
 						{({opacity, y}) =>
 						<form className='logForm' style={{
