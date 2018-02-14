@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import '../App.css';
-import Sign from './Sign';
-import SignExpanded from './SignExpanded';
-import SignCollapsed from './SignCollapsed';
+import Sign from './l-sign';
+import SignExpanded from './l-signExpanded';
+import SignCollapsed from './l-signCollapsed';
 
 class Modal extends Component {
 

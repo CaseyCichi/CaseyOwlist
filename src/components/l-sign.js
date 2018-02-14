@@ -1,18 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../App.css';
-import {MdFavorite, MdFavoriteOutline} from 'react-icons/lib/md';
-
-
+import {MdAccountCircle, MdAddCircle} from 'react-icons/lib/md';
 
 const Sign = (props) => {
 
 	let icon = null;
 
 	if (props.type === 'signIn') {
-		icon = <MdFavorite className='icons'/>
+		icon = <MdAccountCircle className='icons'/>
 	} else {
-		icon = <MdFavoriteOutline className='icons'/>
+		icon = <MdAddCircle className='icons'/>
 	}
 
 	return (

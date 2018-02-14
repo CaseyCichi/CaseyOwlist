@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-import NavigationPanel from './components/NavigationPanel';
-import Modal from './components/Modal';
+import NavigationPanel from './components/l-navigationPanel';
+import Modal from './components/l-modal';
 
 class App extends Component {
 

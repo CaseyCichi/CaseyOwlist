@@ -2,8 +2,8 @@ import React , {Component} from 'react';
 import PropTypes from 'prop-types';
 import '../App.css';
 import {Motion, spring} from 'react-motion';
-import Input from './Input';
-import SubmitButton from './SubmitButton';
+import Input from './l-input';
+import SubmitButton from './l-submitButton';
 
 class SignExpanded extends Component {
 
